@@ -33,7 +33,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                     color="warning"
                     variant="shadow"
                     aria-label="text me"
-                    className="w-full  py-5 bg-black drop-shadow-xl text-white px-8 hover:text-orange-500"
+                    className="w-full  py-5 bg-black drop-shadow-xl text-white px-8 hover:text-orange-500 transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
                 >
                     <p className="text-lg sm:text-xl">Acting Frontend Developer</p>
                 </Button>
@@ -97,7 +97,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                             color="warning"
                             variant="shadow"
                             aria-label="Location"
-                            className="bg-black drop-shadow-xl text-orange-500 hover:text-white"
+                            className="bg-black drop-shadow-xl text-orange-500 hover:text-white "
                         >
                             <LocationOnOutlinedIcon />
                         </Button>
@@ -120,7 +120,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                             color="warning"
                             variant="shadow"
                             aria-label="Go to Github"
-                            className="bg-black drop-shadow-xl text-orange-500 hover:text-white"
+                            className="bg-black drop-shadow-xl text-orange-500 hover:text-white transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_white,_0_0_20px_white,_0_0_30px_white,_0_0_40px_white]"
                         >
                             <GitHubIcon />
                         </Button>
@@ -134,7 +134,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                             color="warning"
                             variant="shadow"
                             aria-label="Go to Linkedin"
-                            className="bg-black drop-shadow-xl text-orange-500 hover:text-white"
+                            className="bg-black drop-shadow-xl text-orange-500 hover:text-white transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_white,_0_0_20px_white,_0_0_30px_white,_0_0_40px_white]"
                         >
                             <LinkedInIcon />
                         </Button>
@@ -145,7 +145,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                                 color="warning"
                                 variant="shadow"
                                 aria-label="Download file"
-                                className="bg-black drop-shadow-xl text-orange-500 hover:text-white flex items-center"
+                                className="bg-black drop-shadow-xl text-orange-500 hover:text-white flex items-center transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_white,_0_0_20px_white,_0_0_30px_white,_0_0_40px_white]"
                             >
                                 <SimCardDownloadIcon />
                                 <p className="font-bold text-sm sm:text-base pl-2">Resume</p>
@@ -160,7 +160,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                     onClick={() => setCurrentComponent('home')}
                     color="warning"
                     variant="ghost"
-                    className="w-full text-white mb-2 font-bold"
+                    className="w-full text-white mb-2 font-bold transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
                 >
                     Go to Home
                 </Button>
@@ -168,7 +168,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                     onClick={() => setCurrentComponent('about')}
                     color="warning"
                     variant="ghost"
-                    className="w-full text-white font-bold"
+                    className="w-full text-white font-bold transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
                 >
                     Go to About Me
                 </Button>

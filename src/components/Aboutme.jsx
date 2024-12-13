@@ -13,7 +13,7 @@ const Aboutme = () => {
                 <p>Highly motivated and detail-oriented Junior Software Developer with a background in nanomaterials engineering and hands-on experience as a Design Engineer. Skilled in HTML, CSS, JavaScript, React, and Tailwind CSS. Strong team player with excellent communication skills, eager to contribute to dynamic development teams and deliver high-quality frontend solutions.</p>
             </div>
 
-            <div className='pt-5 p-8 bg-default-200 rounded-lg border-4 border-orange-700 transition-all duration-300 hover:shadow-[0px_0px_15px_rgba(255,130,0,0.6)] hover:bg-opacity-90'>
+            <div className='pt-5 p-8 bg-default-200 rounded-lg border-4 border-orange-700 transition-all duration-300 hover:bg-opacity-90 transform hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]'>
                 <h2 className='text-xl font-bold pb-2 border-b-4 border-orange-400 w-[50%]'>Certification</h2>
                     <ul className='list-disc pl-5 pt-2'>
                         <div className='flex'>
@@ -38,7 +38,7 @@ const Aboutme = () => {
                     </ul>
             </div>
 
-            <div className='pt-5 p-8 bg-default-200 rounded-lg border-4 border-orange-700 transition-all duration-300 hover:shadow-[0px_0px_15px_rgba(255,130,0,0.6)] hover:bg-opacity-90'>
+            <div className='pt-5 p-8 bg-default-200 rounded-lg border-4 border-orange-700 transition-all duration-300 hover:bg-opacity-90 transform hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]'>
                 <h2 className='text-xl font-bold pb-2 border-b-4 border-orange-400 w-[30%]'>Work Experience</h2>
                 <div className='pb-2 pt-2'>
                     <h3>Design Engineer</h3>
@@ -55,7 +55,7 @@ const Aboutme = () => {
             </div>
 
             <div className='flex justify-between gap-5'>
-                <div className='pt-5 p-8 bg-default-200 rounded-lg w-[30%] border-4 border-orange-700 transition-all duration-300 hover:shadow-[0px_0px_15px_rgba(255,130,0,0.6)] hover:bg-opacity-90'>
+                <div className='pt-5 p-8 bg-default-200 rounded-lg w-[30%] border-4 border-orange-700 transition-all duration-300 hover:bg-opacity-90 transform hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]'>
                 <h2 className='text-xl font-bold pb-4'>Technical Skills</h2>
                     <ul className='list-disc pl-5'>
                         <li>
@@ -75,7 +75,7 @@ const Aboutme = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='pt-5 p-8 bg-default-200 rounded-lg w-[30%] border-4 border-orange-700 transition-all duration-300 hover:shadow-[0px_0px_15px_rgba(255,130,0,0.6)] hover:bg-opacity-90'>
+                <div className='pt-5 p-8 bg-default-200 rounded-lg w-[30%] border-4 border-orange-700 transition-all duration-300 hover:bg-opacity-90 transform hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]'>
                 <h2 className='text-xl font-bold pb-4'>Soft Skills</h2>
                     <ul className='list-disc pl-5'>
                         <li>
@@ -92,7 +92,7 @@ const Aboutme = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='pt-5 p-8 bg-default-200 rounded-lg w-[50%] border-4 border-orange-700 transition-all duration-300 hover:shadow-[0px_0px_15px_rgba(255,130,0,0.6)] hover:bg-opacity-90'>
+                <div className='pt-5 p-8 bg-default-200 rounded-lg w-[50%] border-4 border-orange-700 transition-all duration-300 hover:bg-opacity-90 transform hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]'>
                 <h2 className='text-xl font-bold pb-4'>Education</h2>
                 <h3 className='pb-2'>King Mongkut's Institute of Technology Ladkrabang</h3>
                     <ul className='list-disc pl-5'>
