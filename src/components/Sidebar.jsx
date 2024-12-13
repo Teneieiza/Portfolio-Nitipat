@@ -9,6 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SimCardDownloadIcon from '@mui/icons-material/SimCardDownload';
 import profile from '../../public/profile.jpg'
+import Nitipat_CV from '../../public/Nitipat_CV.pdf'
 
 const Sidebar = ({ setCurrentComponent }) => {
     return (
@@ -139,7 +140,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                         </Button>
                     </li>
                     <li>
-                        <a href="../../public/Nitipat_CV.pdf" download="Nitipat_CV.pdf">
+                        <a href={ Nitipat_CV } download="Nitipat_CV.pdf">
                             <Button
                                 color="warning"
                                 variant="shadow"
