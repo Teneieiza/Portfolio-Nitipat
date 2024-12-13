@@ -8,6 +8,7 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SimCardDownloadIcon from '@mui/icons-material/SimCardDownload';
+import profile from '../../public/profile.jpg'
 
 const Sidebar = ({ setCurrentComponent }) => {
     return (
@@ -17,7 +18,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                     isBordered
                     color="danger"
                     radius="sm"
-                    src="../../public/profile.jpg"
+                    src={profile}
                     className="w-40 h-40 sm:w-60 sm:h-60"
                 />
             </div>
