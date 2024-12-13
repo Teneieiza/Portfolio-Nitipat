@@ -12,18 +12,16 @@ import SimCardDownloadIcon from '@mui/icons-material/SimCardDownload';
 const Sidebar = ({ setCurrentComponent }) => {
     return (
         <div className="flex justify-start p-4 sm:p-8 bg-[#1E1E1F] flex-col items-center rounded-3xl text-white max-w-sm mx-auto">
-            {/* Avatar */}
             <div>
                 <Avatar
                     isBordered
                     color="danger"
                     radius="sm"
-                    src="../../public/images/profile.jpg"
+                    src="../../public/profile.jpg"
                     className="w-40 h-40 sm:w-60 sm:h-60"
                 />
             </div>
 
-            {/* Profile Info */}
             <div className="flex justify-center items-center flex-col pt-4 gap-3 pb-6 border-b-2 border-black w-full">
                 <h1 className="text-md sm:text-xl font-bold text-center">
                     NITIPAT WONGWAIKUNANANT
@@ -39,10 +37,8 @@ const Sidebar = ({ setCurrentComponent }) => {
                 </Button>
             </div>
 
-            {/* Contact Info */}
             <div className="py-10 w-full">
                 <ul className="flex flex-col gap-5 px-2">
-                    {/* Email */}
                     <li className="flex justify-start items-center">
                         <Button
                             isIconOnly
@@ -61,7 +57,6 @@ const Sidebar = ({ setCurrentComponent }) => {
                         </div>
                     </li>
 
-                    {/* Phone */}
                     <li className="flex justify-start items-center">
                         <Button
                             isIconOnly
@@ -78,7 +73,6 @@ const Sidebar = ({ setCurrentComponent }) => {
                         </div>
                     </li>
 
-                    {/* Birth Date */}
                     <li className="flex justify-start items-center">
                         <Button
                             isIconOnly
@@ -95,7 +89,6 @@ const Sidebar = ({ setCurrentComponent }) => {
                         </div>
                     </li>
 
-                    {/* Location */}
                     <li className="flex justify-start items-center">
                         <Button
                             isIconOnly
@@ -116,7 +109,6 @@ const Sidebar = ({ setCurrentComponent }) => {
                 </ul>
             </div>
 
-            {/* Social Links */}
             <div className="pb-10 w-full">
                 <ul className="flex justify-center gap-5 sm:gap-8 px-4 sm:px-10">
                     <li>
@@ -161,13 +153,12 @@ const Sidebar = ({ setCurrentComponent }) => {
                 </ul>
             </div>
 
-            {/* Navigation Buttons */}
-            <div className="pt-6">
+            <div>
                 <Button
                     onClick={() => setCurrentComponent('home')}
                     color="warning"
                     variant="ghost"
-                    className="w-full text-white mb-2"
+                    className="w-full text-white mb-2 font-bold"
                 >
                     Go to Home
                 </Button>
@@ -175,7 +166,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                     onClick={() => setCurrentComponent('about')}
                     color="warning"
                     variant="ghost"
-                    className="w-full text-white"
+                    className="w-full text-white font-bold"
                 >
                     Go to About Me
                 </Button>
