@@ -168,9 +168,19 @@ const Sidebar = ({ setCurrentComponent }) => {
                     onClick={() => setCurrentComponent('about')}
                     color="warning"
                     variant="ghost"
-                    className="w-full text-white font-bold transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
+                    className="w-full text-white mb-2 font-bold transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
                 >
                     Go to About Me
+                </Button>
+                <Button
+                    onClick={() =>
+                        window.open('https://project-group7-frontend.vercel.app/', '_blank')
+                    }
+                    color="warning"
+                    variant="ghost"
+                    className="w-full text-white font-bold transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
+                >
+                    Go to My Group Project
                 </Button>
             </div>
         </div>
