@@ -35,7 +35,7 @@ const Sidebar = ({ setCurrentComponent }) => {
                     aria-label="text me"
                     className="w-full  py-5 bg-black drop-shadow-xl text-white px-8 hover:text-orange-500 transform transition-all duration-300 hover:scale-105 hover:[box-shadow:_0_0_10px_orange,_0_0_20px_orange]"
                 >
-                    <p className="text-lg sm:text-xl">Acting Frontend Developer</p>
+                    <p className="text-lg sm:text-xl">Software Developer</p>
                 </Button>
             </div>
 
